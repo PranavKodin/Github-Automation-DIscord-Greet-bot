@@ -36,5 +36,5 @@ async def on_ready():
             )
     scheduler.start()
 
-TOKEN = os.getenv("DISCORD_TOKEN")
+TOKEN = os.getenv("RIYA_TOKEN")
 bot.run(TOKEN)
