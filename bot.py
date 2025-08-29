@@ -40,7 +40,7 @@ class Client(discord.Client):
                 if channel is None:
                     channel = await self.fetch_channel(cid)
 
-                await channel.send(f"{MESSAGE}\n\n Sir pranav uth gaye hai aur tum chutiyo ko GOOD MORNING \n kehna chahte hai")
+                await channel.send(f"{MESSAGE}\n\nSir pranav uth gaye hai aur tum chutiyo ko\n_GOOD MORNING_ \nkehna chahte hai")
                 print(f"✅ Message sent to channel {cid}")
             except Exception as e:
                 print(f"❌ Failed to send message to channel {cid}: {e}")
