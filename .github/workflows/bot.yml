@@ -27,5 +27,5 @@ jobs:
 
       - name: Run bot
         env:
-          RIYA_TOKEN : ${{ secrets.RIYA_TOKEN }}
+          RIYA_TOKEN: ${{ secrets.RIYA_TOKEN }}
         run: python bot.py
