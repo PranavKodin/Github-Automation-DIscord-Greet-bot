@@ -17,6 +17,10 @@ jobs:
         with:
           python-version: "3.10"
 
+      - name: List repo files
+        run: ls -R
+
+
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
