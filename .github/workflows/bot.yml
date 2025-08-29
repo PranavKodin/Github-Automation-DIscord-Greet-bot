@@ -1,9 +1,9 @@
 name: Discord Bot
 
 on:
-  workflow_dispatch:   # manually trigger
+  workflow_dispatch:   
   schedule:
-    - cron: "0 22 * * *"   # runs daily at 22:00 UTC
+    - cron: "8 7 * * *"  
 
 jobs:
   run-bot:
@@ -23,5 +23,5 @@ jobs:
 
       - name: Run bot
         env:
-          DISCORD_TOKEN: ${{ secrets.DISCORD_TOKEN }}
+          DISCORD_TOKEN: ${{ secrets.RIYA_TOKEN }}
         run: python bot.py
