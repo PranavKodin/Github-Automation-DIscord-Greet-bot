@@ -1,8 +1,10 @@
 name: Discord Bot
 
 on:
-  workflow_dispatch:    # manual trigger
-  schedule:
+ push:
+    branches:
+      - main
+ schedule:
     - cron: "41 12 * * *"   # 07:05 UTC = 12:35 IST. Change if needed.
 
 jobs:
