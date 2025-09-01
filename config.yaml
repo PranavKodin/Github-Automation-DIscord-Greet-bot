@@ -2,7 +2,7 @@ automations:
   - name: "automation2"
     channel_ids:
       - 1289860921744691258
-      - 987654321098765432
+      - 1398010941983162458
       - 123456789012345678
     message: "Hello I'm RIYA!"
     #i just commited change in this file to check the workflow github action
