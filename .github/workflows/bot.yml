@@ -5,7 +5,7 @@ on:
     branches:
       - main
  schedule:
-    - cron: "06 12 * * *"   # 07:05 UTC = 12:35 IST. Change if needed. shifted the time to 24 minutes prior to tachle the delay in github scheduled automation
+    - cron: "06 00 * * *"   # 07:05 UTC = 12:35 IST. Change if needed. shifted the time to 24 minutes prior to tachle the delay in github scheduled automation
 
 jobs:
   run-bot:
